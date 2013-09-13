@@ -1,0 +1,1 @@
+alert('Spike is a great dog!');
