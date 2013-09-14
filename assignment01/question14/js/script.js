@@ -1,0 +1,1 @@
+document.write('<p>This is a JavaScript program</p>');
