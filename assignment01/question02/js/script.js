@@ -1,6 +1,6 @@
 var newAge;
-var age = 5;
-var years = 3;
+var age = 2;
+var years = 4;
 
 newAge = age + years;
 
