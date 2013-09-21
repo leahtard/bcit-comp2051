@@ -19,5 +19,4 @@ function oddSum() {
 
 	document.write('<h3>The sum is: '+numOddTotal+'!</h3>');
 
-
 }
