@@ -37,10 +37,10 @@ function process() {
 			alert(aDiv);
 			// Filter through smallest array and try to find match in largest
 			for(var n=0; n<aDiv.length; n++) {
-				//alert(aDiv[n];)
+				alert(aDiv[n];)
 			}
 		}
-
+// TO DO: need to figure out how to compare the two arrays
 	}
 	findCD(18, 36);
 
