@@ -20,7 +20,7 @@ function addArray(a) {
 }
 
 function process() {
-	var array = randomArray(1000);
-	document.writeln('Here is your random 1000 number array: '+array);
+	var array = randomArray(100);
+	document.writeln('Here is your random 100 number array: '+array);
 	document.writeln('<h2>It adds up to: '+addArray(array)+'</h2>');
 }
