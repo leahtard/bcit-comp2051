@@ -11,7 +11,10 @@ function randomArray(n) {
 	return data;
 }
 
-var array = randomArray(20)
+var array = randomArray(20);
+var uniqueNums = new Array;
+
+
 
 alert(array);
 
