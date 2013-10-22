@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Verdana, Sans-Serif;
+  color: #666666;
+  padding: 2em; }
+
+#page {
+  margin: 0 auto;
+  background: #eeeeee;
+  border: solid 1px #cccccc;
+  border-radius: 5px;
+  padding: 2em; }
+
+h1 {
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0; }
+
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"] {
+  width: 500px;
+  border: 3px solid #cccccc;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Verdana, Sans-Serif;
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 0.125em;
+  margin: 0.5em 0;
+  display: block;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover {
+  background: yellow;
+  border: 3px solid green; }
+
+input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus {
+  background: white;
+  border: 3px solid green; }
+
+textarea {
+  width: 500px;
+  height: 200px;
+  border: 3px solid #cccccc;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Verdana, Sans-Serif;
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 0.125em;
+  margin: 0.5em 0;
+  display: block; }
+
+textarea:hover {
+  background: yellow;
+  border: 3px solid green; }
+
+textarea:focus {
+  background: white;
+  border: 3px solid green; }
+
+button, .button {
+  border: 1px solid #076fe4;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 #8ebcf1;
+  color: white;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #4294f0;
+  background-image: -webkit-linear-gradient(#4294f0, #0776f3);
+  background-image: linear-gradient(#4294f0, #0776f3);
+  padding: 7px 18px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #0065d6;
+  background-clip: padding-box;
+  font-size: 1em;
+  font-weight: normal; }
+  button:hover:not(:disabled), .button:hover:not(:disabled) {
+    box-shadow: inset 0 1px 0 0 #60a2ec;
+    cursor: pointer;
+    background-color: #2f87ea;
+    background-image: -webkit-linear-gradient(#2f87ea, #086fe3);
+    background-image: linear-gradient(#2f87ea, #086fe3); }
+  button:active:not(:disabled), .button:active:not(:disabled) {
+    border: 1px solid #076fe4;
+    box-shadow: inset 0 0 8px 4px #0868d3, inset 0 0 8px 4px #0868d3, 0 1px 1px 0 #eeeeee; }
+  button:disabled, .button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed; }

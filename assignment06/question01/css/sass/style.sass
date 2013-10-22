@@ -1,0 +1,68 @@
+@import "bourbon/bourbon.scss"
+
+// STYLES
+body
+  margin: 0
+  padding: 0
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Verdana, Sans-Serif
+  color: #666
+  padding: 2em
+
+#page
+  margin: 0 auto
+  background: #EEE
+  border: solid 1px #CCC
+  border-radius: 5px
+  padding: 2em
+
+h1
+  margin: 0
+
+h1, h2, h3, h4, h5, h6
+  margin-bottom: 0
+
+#{$all-text-inputs}
+  width: 500px
+  border: 3px solid #CCC
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Verdana, Sans-Serif
+  font-size: 1em
+  border-radius: 5px
+  padding: 0.125em
+  margin: 0.5em 0
+  display: block
+  @include transition (all 0.2s ease-in-out)
+
+#{$all-text-inputs-hover}
+  background: yellow
+  border: 3px solid green
+
+#{$all-text-inputs-focus}
+  background: white
+  border: 3px solid green
+
+textarea
+  width: 500px
+  height: 200px 
+  border: 3px solid #CCC
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Verdana, Sans-Serif
+  font-size: 1em
+  border-radius: 5px
+  padding: 0.125em
+  margin: 0.5em 0
+  display: block
+
+textarea:hover
+  background: yellow
+  border: 3px solid green
+
+textarea:focus
+  background: white
+  border: 3px solid green
+
+button, .button
+  @include button
+  font-size: 1em
+  font-weight: normal
+
+
+
